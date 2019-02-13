@@ -1,0 +1,284 @@
+
+.flip-card {
+  background-color: transparent;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: block;
+}
+
+.flip-card-front {
+  background-color: #0c5081;
+  opacity: 0.9;
+  color: black;
+  z-index: 2;
+}
+
+.flip-card-back {
+  background-color: #F36F21;
+  color: white;
+  transform: rotateY(180deg);
+  z-index: 1;
+  text-align: center;
+}
+table{ margin-left:auto; margin-right:auto;line-height:50px;margin-top:-30px;}
+th{font-size: 24px;font-weight: 600;line-height:20px;padding: 20px; }
+td{ font-size: 24px;font-weight: 600;line-height:20px;padding: 20px; }
+@media only screen and (max-width: 362px) and (min-width: 355px)
+{
+#flip1 {margin-left: 5px;}
+#flip2 {margin-left: 5px;}
+#flip3 {margin-left: 5px;}
+}
+@media only screen and (min-width:300px) and (max-width:360px)
+{
+  #flip1
+  {
+   margin-left: 10px;
+  }
+  #flip2
+  {
+   margin-left: 10px;
+   margin-top: 50px;
+  }
+  #flip3
+  {
+   margin-left: 10px;
+   margin-top: 50px;
+  }
+  th{font-size: 18px;font-weight: 600;line-height:20px;padding: 20px; }
+td{ font-size: 18px;font-weight: 600;line-height:20px;padding: 20px; }
+}
+@media only screen and (min-width:340px) and (max-width:350px)
+{
+  #flip1
+  {
+   margin-left: 30px;
+  }
+  #flip2
+  {
+   margin-left: 30px;
+   margin-top: 50px;
+  }
+  #flip3
+  {
+   margin-left: 30px;
+   margin-top: 50px;
+  }
+}
+@media only screen and (min-width:371px) and (max-width:390px)
+{
+  #flip1
+  {
+   margin-left: 10px;
+   width: 360px;
+  }
+  #flip2
+  {
+    margin-left: 10px;
+   width: 360px;
+   margin-top: 50px;
+  }
+  #flip3
+  {
+    margin-left: 10px;
+   width: 360px;
+   margin-top: 50px;
+  }
+}
+@media only screen and (min-width:391px) and (max-width:410px)
+{
+  #flip1
+  {
+   margin-left: 12px;
+   width: 375px;
+  }
+  #flip2
+  {
+    margin-left: 12px;
+    width: 375px;
+   margin-top: 50px;
+  }
+  #flip3
+  {
+    margin-left: 12px;
+    width: 375px;
+   margin-top: 50px;
+  }
+}
+@media only screen and (min-width:411px) and (max-width:450px)
+{
+  #flip1
+  {
+   margin-left: 20px;
+   width: 372px;
+  }
+  #flip2
+  {
+    margin-left: 20px;
+   width: 372px;
+   margin-top: 50px;
+  }
+  #flip3
+  {
+    margin-left: 20px;
+   width: 372px;
+   margin-top: 50px;
+  }
+}
+@media only screen and (min-width:451px) and (max-width:480px)
+{
+  #flip1
+  {
+   margin-left: 25px;
+   width: 430px;
+  }
+  #flip2
+  {
+    margin-left: 25px;
+   width: 430px;
+   margin-top: 50px;
+  }
+  #flip3
+  {
+    margin-left: 25px;
+    width: 430px;
+   margin-top: 50px;
+  }
+}
+@media only screen and (min-width:550px) and (max-width:575px)
+{
+  #flip1
+  {
+   margin-left: 10px;
+   width: 520px;
+  }
+  #flip2
+  {
+    margin-left: 10px;
+   width: 520px;
+   margin-top: 50px;
+  }
+  #flip3
+  {
+    margin-left: 10px;
+    width: 520px;
+   margin-top: 50px;
+  }
+}
+@media only screen and (min-width:576px) and (max-width:600px)
+{
+  #flip1
+  {
+   margin-left: 10px;
+   width: 560px;
+  }
+  #flip2
+  {
+    margin-left: 10px;
+   width: 560px;
+   margin-top: 50px;
+  }
+  #flip3
+  {
+    margin-left: 10px;
+    width: 560px;
+   margin-top: 50px;
+  }
+}
+@media only screen and (min-width:610px) and (max-width:680px)
+{
+  #flip1
+  {
+   margin-left: 10px;
+   width: 520px;
+  }
+  #flip2
+  {
+    margin-left: 10px;
+   width: 520px;
+   margin-top: 50px;
+  }
+  #flip3
+  {
+    margin-left: 10px;
+    width: 520px;
+   margin-top: 50px;
+  }
+  .flip-card {
+    background-color: transparent;
+    height: 300px;
+    perspective: 1000px;
+    margin-bottom: 40px;
+}
+}
+@media only screen and (min-width:700px) and (max-width:750px)
+{
+  #flip1
+  {
+   margin-left: 10px;
+   width: 520px;
+  }
+  #flip2
+  {
+    margin-left: 10px;
+   width: 520px;
+   margin-top: 50px;
+  }
+  #flip3
+  {
+    margin-left: 10px;
+    width: 520px;
+   margin-top: 50px;
+  }
+}
+@media only screen and (min-width:755px) and (max-width:800px)
+{
+  #flip1
+  {
+   margin-left: 30px;
+   width: 660px;
+  }
+  #flip2
+  {
+    margin-left: 30px;
+   width: 660px;
+   margin-top: 50px;
+  }
+  #flip3
+  {
+    margin-left: 30px;
+    width: 660px;
+   margin-top: 50px;
+  }
+}
+@media only screen and (min-width:805px) and (max-width:960px)
+{
+  .flip-card 
+  {
+    background-color: transparent;
+    height: 300px;
+    perspective: 1000px;
+    margin-bottom: 40px;
+}
+}

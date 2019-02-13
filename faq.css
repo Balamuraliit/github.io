@@ -1,0 +1,107 @@
+
+.tab-content {
+    box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+}
+    .card {
+        border-radius: 0;
+        margin-top: 30px;
+    }
+    
+    .card-header {
+        padding-top:5px;
+        padding-bottom: 5px;
+        border-radius: 0;
+        background-color: #F36F21;
+        color: white;
+        font-size: 22px;
+    }
+        h5 {
+            margin: 0;
+        }
+            button {
+                display: block;
+                
+                padding: 0;
+                border: 0;
+                
+                color: rgba(0,0,0,.87);
+                text-align: left;
+                white-space: normal;
+            } 
+            .card-header:hover,
+            .card-header:focus,
+            .card-header:active,
+          {
+                    text-decoration: none;
+                }
+
+.accordion > .card .card:not(:first-child) 
+{
+            border-top: 0;
+        }   
+    
+
+
+.collapse.show 
+    .card-body {
+        border-bottom: 1px solid rgba(0,0,0,.125);
+        color:rgb(20, 20, 20);
+    }
+    .btn {
+      
+      color: white;
+      font-size: 16px;
+      background-color: transparent;
+      text-transform: uppercase;
+      text-decoration: none;
+      text-align: left;
+      
+  }
+  .btn:hover{
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+    background-color: transparent;
+    text-transform: uppercase;
+    text-decoration: none;
+    word-spacing:.1em;
+}
+.btn:active{
+  font-weight: 400;
+  color: white;
+  font-size: 16px;
+  background-color: transparent;
+  text-transform: uppercase;
+  text-decoration: none;
+  word-spacing:.1em;
+  border: none;
+}
+
+button
+{
+  text-decoration: none;
+}
+.content{
+
+    text-align: justify;
+    width: auto;
+    background-color: rg#fff
+}
+@media (max-width: 900px)
+{
+
+.card-body {
+    width: auto;
+    margin-left: 0px;
+}
+h5 
+{
+width: auto;
+overflow-y: scroll;
+box-sizing: content-box;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+}
